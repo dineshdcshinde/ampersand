@@ -1,0 +1,15 @@
+# Build output: npm run package recreates this
+dist/
+
+# Dependencies (none yet, but just in case)
+node_modules/
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log

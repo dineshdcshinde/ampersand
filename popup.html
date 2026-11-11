@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ampersand</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <input id="base" spellcheck="false" autocomplete="off" aria-label="Page address without params">
+    <button id="moreBtn" class="icon" title="More" aria-label="More options" aria-haspopup="menu">
+      <svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>
+    </button>
+  </header>
+
+  <div id="filterWrap" hidden>
+    <input id="filter" placeholder="Search params" spellcheck="false" autocomplete="off" aria-label="Search params">
+  </div>
+
+  <main id="main">
+    <p id="emptyText" class="note" hidden>This URL has no params yet.</p>
+    <div id="list" role="list" aria-label="URL params"></div>
+    <div id="bulkWrap" hidden>
+      <textarea id="bulk" spellcheck="false" aria-label="All params as text, one key=value per line"></textarea>
+    </div>
+    <div id="hashRow" class="hash" hidden>
+      <span>#</span>
+      <input id="hash" spellcheck="false" autocomplete="off" aria-label="Fragment after #">
+    </div>
+  </main>
+
+  <div id="tracking" class="tracking" hidden>
+    <span id="trackingText"></span>
+    <button id="cleanBtn" class="link">Remove</button>
+  </div>
+
+  <footer>
+    <button id="copyBtn" class="quiet">Copy URL</button>
+    <span class="spacer"></span>
+    <button id="applyBtn" class="primary" title="Enter">Update URL</button>
+  </footer>
+
+  <div id="menu" class="menu" role="menu" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
