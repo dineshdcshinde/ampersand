@@ -1,6 +1,6 @@
 # Ampersand
 
-A Chrome extension that shows the current URL's query params as a simple list. Edit, untick, remove or add a param, then press Enter to update the address bar.
+A Chrome extension that shows the current URL's query params as a simple list. Edit, untick, remove or add a param, then press Enter to update the address bar. 
 
 ## Run it locally
 
