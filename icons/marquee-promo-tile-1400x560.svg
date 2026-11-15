@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg" width="1400" height="560">
+    <!-- Light mode background -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="1400" height="560" fill="url(#bgGradient)"/>
+
+    <!-- Left side: Visual demo -->
+    <g>
+        <!-- URL Bar mockup -->
+        <rect x="80" y="120" width="520" height="60" rx="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+        <text x="110" y="158" font-family="'Monaco', monospace" font-size="16" fill="#333">https://example.com/?utm_source=x&b=hello</text>
+
+        <!-- Params list mockup -->
+        <g>
+            <!-- Header -->
+            <text x="80" y="230" font-family="system-ui" font-size="14" font-weight="600" fill="#666">Query Parameters</text>
+
+            <!-- Param rows -->
+            <!-- Row 1 -->
+            <rect x="80" y="250" width="520" height="45" rx="6" fill="#f0f4f8"/>
+            <text x="100" y="275" font-family="'Monaco', monospace" font-size="13" fill="#0066cc" font-weight="600">utm_source</text>
+            <text x="320" y="275" font-family="'Monaco', monospace" font-size="13" fill="#333">=</text>
+            <text x="335" y="275" font-family="'Monaco', monospace" font-size="13" fill="#333">google</text>
+            <circle cx="570" cy="272" r="10" fill="#4CAF50"/>
+
+            <!-- Row 2 -->
+            <rect x="80" y="305" width="520" height="45" rx="6" fill="#fff5f5"/>
+            <text x="100" y="330" font-family="'Monaco', monospace" font-size="13" fill="#ff6b6b" font-weight="600">gclid</text>
+            <text x="300" y="330" font-family="'Monaco', monospace" font-size="13" fill="#666" text-decoration="line-through">=</text>
+            <text x="315" y="330" font-family="'Monaco', monospace" font-size="13" fill="#666" text-decoration="line-through">abc123...</text>
+            <text x="480" y="330" font-size="11" fill="#ff6b6b" font-weight="600">tracking</text>
+
+            <!-- Row 3 -->
+            <rect x="80" y="360" width="520" height="45" rx="6" fill="#f0f4f8"/>
+            <text x="100" y="385" font-family="'Monaco', monospace" font-size="13" fill="#333" font-weight="600">page</text>
+            <text x="300" y="385" font-family="'Monaco', monospace" font-size="13" fill="#333">=</text>
+            <text x="315" y="385" font-family="'Monaco', monospace" font-size="13" fill="#333">1</text>
+            <circle cx="570" cy="382" r="10" fill="#4CAF50"/>
+        </g>
+    </g>
+
+    <!-- Right side: Text & Features -->
+    <g>
+        <!-- Logo/Icon -->
+        <circle cx="1080" cy="80" r="35" fill="#0066cc" opacity="0.1"/>
+        <text x="1065" y="95" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#0066cc">&amp;</text>
+
+        <!-- Title -->
+        <text x="750" y="140" font-family="system-ui" font-size="52" font-weight="bold" fill="#1a1a1a">Ampersand</text>
+
+        <!-- Subtitle -->
+        <text x="750" y="185" font-family="system-ui" font-size="24" fill="#666">See &amp; Edit URL Params</text>
+
+        <!-- Feature list -->
+        <g font-family="system-ui" font-size="16" fill="#444" font-weight="500">
+            <!-- Feature 1 -->
+            <circle cx="750" cy="235" r="4" fill="#0066cc"/>
+            <text x="775" y="240">Click • Type • Update</text>
+
+            <!-- Feature 2 -->
+            <circle cx="750" cy="280" r="4" fill="#0066cc"/>
+            <text x="775" y="285">Auto-spot tracking params</text>
+
+            <!-- Feature 3 -->
+            <circle cx="750" cy="325" r="4" fill="#0066cc"/>
+            <text x="775" y="330">Untick • Remove • Undo</text>
+
+            <!-- Feature 4 -->
+            <circle cx="750" cy="370" r="4" fill="#0066cc"/>
+            <text x="775" y="375">Copy • Edit as text • JSON</text>
+        </g>
+
+        <!-- CTA -->
+        <rect x="750" y="420" width="300" height="55" rx="8" fill="#0066cc"/>
+        <text x="900" y="455" font-family="system-ui" font-size="18" font-weight="600" fill="#ffffff" text-anchor="middle">Add to Chrome</text>
+
+        <!-- Badge -->
+        <text x="1050" y="490" font-family="system-ui" font-size="12" fill="#666" text-anchor="end">Free • No tracking • Privacy first</text>
+    </g>
+
+    <!-- Accent line -->
+    <line x1="700" y1="0" x2="700" y2="560" stroke="#0066cc" stroke-width="3" opacity="0.3"/>
+</svg>
