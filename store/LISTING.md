@@ -11,7 +11,7 @@ Upload: `dist/ampersand-1.0.0.zip` (made with `npm run package`, see docs/PUBLIS
 The **name**, **summary** and **icon** are read from `manifest.json`:
 
 - Name: `Ampersand – See & Edit URL Params`
-- Summary (max 132 characters): `See every param in the current URL as a simple list. Edit, uncheck, remove or add one, then update the address bar.`
+- Summary (max 132 characters): `See every URL param as a simple list. Edit, untick, remove or add one, then update the address bar.`
 
 ---
 
@@ -20,31 +20,32 @@ The **name**, **summary** and **icon** are read from `manifest.json`:
 **Description**
 
 ```
-Long URLs are hard to read and harder to edit. Ampersand turns the current page's query params into a simple list you can change in place.
+See every param in the current URL as a simple list. Click any value, change it, press Enter, and your address bar updates.
 
-• See every param as key and value, decoded and readable
-• Click a value, type, press Enter, and the address bar updates
-• Untick a param to leave it out without losing it. It keeps its place, ready to tick back on
-• Remove a param with ✕ (with Undo), or type in the last row to add one
-• Copy a single value with one click
-• Spot tracking params (utm_*, gclid, fbclid and more) and remove them in one click
-• Undo your last update without the back button
+What you can do:
+• See all params decoded and readable (no more %20 confusion)
+• Edit a value, press Enter to update
+• Untick params to hide them temporarily—they stay in place when you tick them back
+• Delete params with Undo if you change your mind
+• Copy any param value with one click
+• Auto-spot tracking params (utm_, gclid, etc.) and nuke them
+• Undo your last change
 
-More in the ⋯ menu:
+More options in the menu:
 • Open the edited URL in a new tab (Ctrl+Enter)
-• Copy the URL without tracking params, or the params as JSON
+• Copy just the URL without tracking stuff, or export as JSON
 • Edit all params as plain text
-• Add the standard UTM params for a campaign link
-• Sort params A to Z
-• "Don't reload the page" mode for single-page apps
+• Add UTM params for campaign links
+• Sort A to Z
+• Don't reload the page (for single-page apps)
 
-Untouched params keep their exact original encoding, so updating never breaks a link.
+Your params stay exactly encoded the way they were. Updating never breaks anything.
 
-Made for developers, QA testers, and SEO and marketing teams who work with campaign links, filters, IDs and debug flags every day.
+Built for developers, QA, and anyone who deals with campaign links, filters, or debug flags daily.
 
-Private by design: Ampersand only reads the tab you open it on, keeps everything in your browser, and makes no network requests.
+Privacy: It only reads the tab you click it on. Everything stays in your browser—zero network requests.
 
-Shortcut: Alt+Shift+U
+Keyboard shortcut: Alt+Shift+U
 ```
 
 **Category:** Developer Tools
